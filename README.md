@@ -44,7 +44,7 @@ Assuming you are using the default Ubuntu WSL, you need the following two packag
    sudo apt-get install libsdl2-dev
    sudo apt-get install libxft2
    ```
-
+![Screenshot of the game running under WSL](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2018-29-09.png)
 ### Optional steps
 #### Create a desktop shortcut
 On Gnome, you can easily create a shortcut:
