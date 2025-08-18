@@ -18,18 +18,26 @@ To play the game on a modern system, you will need 3 things (2 if you can read C
 
 Additional external resources are linked at the bottom of the page.
 
+### Prerequisites for WSL2 users
+Assuming you are using the default Ubuntu WSL, you need the following two packages:
+   ```
+   sudo apt-get install libsdl2-dev
+   sudo apt-get install libxft2
+   ```
+
 ### Getting started
 1. Unzip the game data archive to somewhere, you would like the game files to be - a good place could be for example `~/games`
    - create the directory if needed `mkdir -p ~/games`
      
    ![Screenshot showing the archive and the unzipped directory](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-34-16.png)
-2. Download the binary from this repository, and move it into the directory the game data is in
-   - `mv sdlpal ~/games/game_data_dir/`
-3. Move everything from the translation patch into the game data directory - overwrite existing files if needed
-   - `mv xyz ~/games/game_data_dir/`
-4. From the game data directory, launch the binary
+2. Download this repository and copy the following files to the game data directory - overwrite existing files if needed:
+   - **SDLPAL binary:**
+      - `cp -pv sdlpal ~/games/game_data_dir/`
+   - **Translation patch:**
+      - `cp -prv paleng_v3.3/* ~/games/game_data_dir/`
+5. From the game data directory, launch the binary
    - `./sdlpal`
-5. If it's the fist time launching the game, a config window will show up - make sure to write the path to your english patch file in the correct field
+6. If it's the fist time launching the game, a config window will show up - make sure to write the path to your english patch file in the correct field
    - if you followd the steps until now, you can leave the first line as it is
    - by default the localization files location should be `./win_files/m_eng.slf`
 
@@ -37,14 +45,7 @@ Additional external resources are linked at the bottom of the page.
 7. The setup is now complete - enjoy the game!
 
    ![Screenshot showing the main menu of the game](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-36-52.png)
-
-### Special instructions for WSL users
-Assuming you are using the default Ubuntu WSL, you need the following two packages:
-   ```
-   sudo apt-get install libsdl2-dev
-   sudo apt-get install libxft2
-   ```
-![Screenshot of the game running under WSL](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2018-29-09.png)
+   ![Screenshot of the game running under WSL](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2018-29-09.png)
 ### Optional steps
 #### Create a desktop shortcut
 On Gnome, you can easily create a shortcut:
