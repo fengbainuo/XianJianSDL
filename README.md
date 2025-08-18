@@ -31,12 +31,12 @@ Assuming you are using the default Ubuntu WSL, you need the following two packag
      
    ![Screenshot showing the archive and the unzipped directory](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-34-16.png)
 2. Download the binary from this repository, and move it into the directory the game data is in
-   - `mv sdlpal ~/games/game_data_dir/`
-3. Move everything from the translation patch into the game data directory - overwrite existing files if needed
-   - `mv xyz ~/games/game_data_dir/`
-4. From the game data directory, launch the binary
+   - `cp -pv sdlpal ~/games/game_data_dir/`
+4. Move everything from the translation patch into the game data directory - overwrite existing files if needed
+   - `cp -prv ./paleng_v3.3/* ~/games/game_data_dir/`
+5. From the game data directory, launch the binary
    - `./sdlpal`
-5. If it's the fist time launching the game, a config window will show up - make sure to write the path to your english patch file in the correct field
+6. If it's the fist time launching the game, a config window will show up - make sure to write the path to your english patch file in the correct field
    - if you followd the steps until now, you can leave the first line as it is
    - by default the localization files location should be `./win_files/m_eng.slf`
 
