@@ -18,16 +18,23 @@ Additional external resources are linked at the bottom of the page.
 
 ### Getting started
 1. Unzip the game data archive to somewhere, you would like the game files to be - a good place could be for example `~/games`
-   - create the directory if needed `mkdir -p ~/games`  
+   - create the directory if needed `mkdir -p ~/games`
+     
+   ![Screenshot showing the archive and the unzipped directory](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-34-16.png)
 2. Download the binary from this repository, and move it into the directory the game data is in
-   - `mv sdlpal ~/games/game_data_dir`
+   - `mv sdlpal ~/games/game_data_dir/`
 3. Move everything from the translation patch into the game data directory - overwrite existing files if needed
-   - `mv xyz ~/games/game_data_dir`
+   - `mv xyz ~/games/game_data_dir/`
 4. From the game data directory, launch the binary
    - `./sdlpal`
 5. If it's the fist time launching the game, a config window will show up - make sure to write the path to your english patch file in the correct field
-   - by default it should be `./win_files/m_eng.sfl`
-6. The setup is now complete - enjoy the game!
+   - if you followd the steps until now, you can leave the first line as it is
+   - by default the localization files location should be `./win_files/m_eng.sfl`
+
+     ![Screenshot showing the config menu](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-35-48.png)
+7. The setup is now complete - enjoy the game!
+
+   ![Screenshot showing the main menu of the game](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-36-52.png)
 
 ### Optional steps
 #### Create a desktop shortcut
@@ -44,7 +51,7 @@ On Gnome, you can easily create a shortcut:
      Type=Application
      Category=Game
      Exec=~/games/game_data_dir/sdlpal
-     Icon=~/games/game_data_dir/logo.ico
+     Icon=~/games/game_data_dir/Logo.ico
      ```
 3. If it doesn't appear, you may need to logout and log back in
 
