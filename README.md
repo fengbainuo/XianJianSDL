@@ -1,3 +1,5 @@
+# Chinese Paladin - The Legend of Sword and Fairy
+
 # Important!
 Due to uncertainty about copyright issues, I do not provide the game files that are **absolutely necessary** to play the game. They used to be available at http://update1.baiyou100.com/resource/Pal98rqp.zip , but the forum is no longer up, so the link doesn't resolve. You can find the same files on the *internet* in a certain *archive*
 
