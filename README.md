@@ -18,6 +18,13 @@ To play the game on a modern system, you will need 3 things (2 if you can read C
 
 Additional external resources are linked at the bottom of the page.
 
+### Prerequisites for WSL2 users
+Assuming you are using the default Ubuntu WSL, you need the following two packages:
+   ```
+   sudo apt-get install libsdl2-dev
+   sudo apt-get install libxft2
+   ```
+
 ### Getting started
 1. Unzip the game data archive to somewhere, you would like the game files to be - a good place could be for example `~/games`
    - create the directory if needed `mkdir -p ~/games`
@@ -37,14 +44,7 @@ Additional external resources are linked at the bottom of the page.
 7. The setup is now complete - enjoy the game!
 
    ![Screenshot showing the main menu of the game](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-36-52.png)
-
-### Special instructions for WSL users
-Assuming you are using the default Ubuntu WSL, you need the following two packages:
-   ```
-   sudo apt-get install libsdl2-dev
-   sudo apt-get install libxft2
-   ```
-![Screenshot of the game running under WSL](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2018-29-09.png)
+   ![Screenshot of the game running under WSL](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2018-29-09.png)
 ### Optional steps
 #### Create a desktop shortcut
 On Gnome, you can easily create a shortcut:
