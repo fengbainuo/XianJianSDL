@@ -3,7 +3,7 @@ Due to uncertainty about copyright issues, I do not provide the game files that 
 
 ## List of distros where the game works as expected using the binary:
 
-![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple)
+![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple) ![Static Badge](https://img.shields.io/badge/WSL-Ubuntu%2024.04-orange)
 
 ## How to play one of the longest running, most influential eastern RPG series' first entry 
 ### This tutorial assumes you are trying to play the game on a Linux/Unix system
@@ -29,12 +29,19 @@ Additional external resources are linked at the bottom of the page.
    - `./sdlpal`
 5. If it's the fist time launching the game, a config window will show up - make sure to write the path to your english patch file in the correct field
    - if you followd the steps until now, you can leave the first line as it is
-   - by default the localization files location should be `./win_files/m_eng.sfl`
+   - by default the localization files location should be `./win_files/m_eng.slf`
 
      ![Screenshot showing the config menu](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-35-48.png)
 7. The setup is now complete - enjoy the game!
 
    ![Screenshot showing the main menu of the game](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-36-52.png)
+
+### Special instructions for WSL users
+Assuming you are using the default Ubuntu WSL, you need the following two packages:
+   ```
+   sudo apt-get install libsdl2-dev
+   sudo apt-get install libxft2
+   ```
 
 ### Optional steps
 #### Create a desktop shortcut
