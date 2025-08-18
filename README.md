@@ -5,7 +5,8 @@ Due to uncertainty about copyright issues, I do not provide the game files that 
 
 ## List of distros where the game works as expected using the binary:
 
-![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple) ![Static Badge](https://img.shields.io/badge/WSL-Ubuntu%2024.04-orange)
+![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple) ![Static Badge](https://img.shields.io/badge/Debian%2013-blue)
+ ![Static Badge](https://img.shields.io/badge/WSL-Ubuntu%2024.04-orange)
 
 ## How to play one of the longest running, most influential eastern RPG series' first entry 
 ### This tutorial assumes you are trying to play the game on a Linux/Unix system
