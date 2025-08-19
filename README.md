@@ -8,7 +8,10 @@ You can also - and this is the recommended way - buy the game on Steam. As it ha
 ## List of distros where the game works as expected using the binary:
 
 ![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple) ![Static Badge](https://img.shields.io/badge/Debian%2013-blue)
- ![Static Badge](https://img.shields.io/badge/WSL-Ubuntu%2024.04-orange)
+
+![Static Badge](https://img.shields.io/badge/Haiku-yellow)
+
+![Static Badge](https://img.shields.io/badge/WSL-Ubuntu%2024.04-orange)
 
 ## How to play one of the longest running, most influential eastern RPG series' first entry 
 ### This tutorial assumes you are trying to play the game on a Linux/Unix system
@@ -49,6 +52,7 @@ Assuming you are using the default Ubuntu WSL, you need the following two packag
 
    ![Screenshot showing the main menu of the game](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2016-36-52.png)
    ![Screenshot of the game running under WSL](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/Screenshot%20From%202025-08-18%2018-29-09.png)
+   ![Screenshot of the game running on Haiku](https://github.com/fengbainuo/XianJianSDL/blob/main/sdlpal_screenshots/haiku_os.png)
 ### Optional steps
 #### Create a desktop shortcut
 On Gnome, you can easily create a shortcut:
