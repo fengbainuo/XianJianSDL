@@ -3,6 +3,8 @@
 # Important!
 Due to uncertainty about copyright issues, I do not provide the game files that are **absolutely necessary** to play the game. They used to be available at http://update1.baiyou100.com/resource/Pal98rqp.zip , but the forum is no longer up, so the link doesn't resolve. You can find the same files on the *internet* in a certain *archive*
 
+You can also - and this is the recommended way - buy the game on Steam. As it has never been officially released in the west, the Steam version is only available in Chinese. That's fine however, you only need the game data, the translation is available in this repository.
+
 ## List of distros where the game works as expected using the binary:
 
 ![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple) ![Static Badge](https://img.shields.io/badge/Debian%2013-blue)
