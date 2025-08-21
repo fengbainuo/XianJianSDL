@@ -7,7 +7,8 @@ You can also - and this is the recommended way - buy the game on Steam. As it ha
 
 ## List of distros where the game works as expected using the binary:
 
-![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple) ![Static Badge](https://img.shields.io/badge/Debian%2013-blue)
+![Static Badge](https://img.shields.io/badge/CentOS_Stream_10-purple) ![Static Badge](https://img.shields.io/badge/Fedora%2042-darkblue)
+ ![Static Badge](https://img.shields.io/badge/Debian%2013-blue)
 
 ![Static Badge](https://img.shields.io/badge/Haiku-yellow)
 
